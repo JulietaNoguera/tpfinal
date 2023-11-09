@@ -1,13 +1,63 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family:'Playfair Display', serif, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: large;
+  color: #771234;
+ 
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family:'Playfair Display', serif, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  color: #771234;
+  background-color: #F9E5E6;
 }
+
+/*NAVEGADOR PRINCIPAL*/
+.navEstilo{
+  font-family:'Playfair Display';
+  background-color: #F9E5E6;
+  margin: 1em;
+
+}
+
+.logo{
+  padding-left: 5%;
+  font-size: large;
+
+}
+
+.login{
+  padding-right: 5%;
+
+}
+
+/*FOOTER */
+.footerEstilo{
+  font-family:'Playfair Display';
+  background-color: #F9E5E6;
+}
+.footerEstilo h4{
+  font-weight: bold;
+  font-style: italic; 
+  font-size: small;
+  color: #771234;
+}
+
+.footerEstilo a{
+  display: block;
+  color: #771234;
+  text-decoration: none;
+  font-size: small;
+  
+}
+.footerEstilo p{
+  font-size:small;
+  color: #771234;
+}
+
