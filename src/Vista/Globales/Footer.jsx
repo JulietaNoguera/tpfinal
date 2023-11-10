@@ -43,9 +43,11 @@ const Footer = () => {
             <Nav className="ml-auto">
                 <div>
                     <h4>REDES SOCIALES </h4>
-                    <a href="#"><img src="/Imagenes/facebook-icon.png" alt="Facebook" width="30" height="30" /></a>
-                    <a href="#"><img src="/Imagenes/twitter-icon.png" alt="Twitter" width="30" height="30" /></a>
-                    <a href="#"><img src="/Imagenes/instagram-icon.png" alt="Instagram" width="30" height="30" /></a>
+                    <div style={{ display: 'flex', alignItems: 'center' }}>
+                      <a href="#" style={{ marginRight: '10px' }}><img src="/Imagenes/facebook.png" alt="Facebook" width="20" height="20" /></a>
+                      <a href="#" style={{ marginRight: '10px' }}><img src="/Imagenes/x.png" alt="Twitter" width="20" height="20" /></a>
+                      <a href="#" style={{ marginRight: '10px' }}><img src="/Imagenes/insta.png" alt="Instagram" width="22" height="22" /></a>
+                    </div>
                 </div>
             </Nav>
           </Navbar>
