@@ -12,7 +12,7 @@ const NavBar = () => {
   return (
     <Navbar className="navEstilo"  expand="lg">
       <Navbar.Brand href="/" className='logo' style={logoStyle}>
-        <img src="/Imagenes/logo.PNG" alt="Flor de Liz" width="50" height="50" />
+        <img src="/Imagenes/logo.PNG" alt="Flor de Liz" width="80" height="70" />
         Flor de Liz
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -20,7 +20,7 @@ const NavBar = () => {
         <Nav>
           <Nav.Link href="/login">
             Login
-            <img src="/Imagenes/login.PNG" alt="Login" width="30" height="30" />
+            <img src="/Imagenes/login.PNG" alt="Login" width="50" height="50"/>
           </Nav.Link>
         </Nav>
       </Navbar.Collapse>

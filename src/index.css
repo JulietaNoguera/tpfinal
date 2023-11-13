@@ -28,13 +28,14 @@ code {
 
 .logo{
   padding-left: 5%;
-  font-size: large;
+  font-size: xx-large;
+  display: inline;
 
 }
 
 .login{
   padding-right: 5%;
-
+  font-size: x-large;
 }
 
 /*FOOTER */
@@ -45,7 +46,7 @@ code {
 .footerEstilo h4{
   font-weight: bold;
   font-style: italic; 
-  font-size: small;
+  font-size: medium;
   color: #771234;
 }
 
@@ -53,11 +54,11 @@ code {
   display: block;
   color: #771234;
   text-decoration: none;
-  font-size: small;
+  font-size: medium;
   
 }
 .footerEstilo p{
-  font-size:small;
+  font-size:medium;
   color: #771234;
 }
 

@@ -16,8 +16,6 @@ const Footer = () => {
             <Navbar.Brand className='footerInfo' >
               <h4>SOBRE NOSOTROS</h4>
               <p>Floristería Flor de Lis está ubicada <br></br>en Capital Federal, Buenos Aires.</p>
-              <p>Nuestro horario de envíos es de <br></br>Lunes a Viernes de 10:00 - 14:00<br></br> y 17:30 - 20:30.
-              <br></br> Sábados de 10:00 - 13:30.</p>
             </Navbar.Brand>
           </Navbar>
         </Col>
@@ -44,9 +42,9 @@ const Footer = () => {
                 <div>
                     <h4>REDES SOCIALES </h4>
                     <div style={{ display: 'flex', alignItems: 'center' }}>
-                      <a href="#" style={{ marginRight: '10px' }}><img src="/Imagenes/facebook.png" alt="Facebook" width="20" height="20" /></a>
-                      <a href="#" style={{ marginRight: '10px' }}><img src="/Imagenes/x.png" alt="Twitter" width="20" height="20" /></a>
-                      <a href="#" style={{ marginRight: '10px' }}><img src="/Imagenes/insta.png" alt="Instagram" width="22" height="22" /></a>
+                      <a href="#" style={{ marginRight: '15px' }}><img src="/Imagenes/facebook.png" alt="Facebook" width="30" height="30" /></a>
+                      <a href="#" style={{ marginRight: '15px' }}><img src="/Imagenes/x.png" alt="Twitter" width="30" height="30" /></a>
+                      <a href="#" style={{ marginRight: '15px' }}><img src="/Imagenes/insta.png" alt="Instagram" width="30" height="30" /></a>
                     </div>
                 </div>
             </Nav>
