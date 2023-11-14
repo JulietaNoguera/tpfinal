@@ -78,7 +78,7 @@ code {
 
 /* pagina de login*/
 .contenedorLog{
-  background-color: #771234;
+  background-color: #D1B0B7;
   margin-left: 20%;
   margin-right: 20%;
   margin-top: 2%;
@@ -89,12 +89,12 @@ code {
   color: #3A3F42;
 }
 .contenedorClaro{
-  background-color: #D1B0B7;
+  background-color: #F9E5E6;
   padding: 5%;
   border-radius: 5%;
 }
 
 .contenedorLog button{
-  background-color: #771234 !important;
+  background-color: #D1B0B7 !important;
   border: #3A3F42;
 }
