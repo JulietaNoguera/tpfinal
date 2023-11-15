@@ -1,5 +1,6 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import Navegador from'./Vista/Globales/Nav'
 import Footer from './Vista/Globales/Footer'
@@ -11,11 +12,15 @@ import Contacto from './Vista/Globales/Contacto';
 function App() {
   return (
     <>
-      <Navegador></Navegador>
-      <Login></Login>
-      <Nosotros></Nosotros>
-      <Contacto></Contacto> 
-      <Footer></Footer>
+      <BrowserRouter>
+        <Navegador></Navegador>
+          <Routes>
+              <Route path='/login' element={<Login/>}/>
+              <Route path='/nosotros' element={<Nosotros/>}/>
+              <Route path='/contacto' element={<Contacto/>}/>
+          </Routes>
+        <Footer></Footer>
+      </BrowserRouter>
     </>
   );
 }

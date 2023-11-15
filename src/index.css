@@ -28,9 +28,7 @@ code {
 
 .logo{
   padding-left: 5%;
-  font-size: xx-large;
-  display: inline;
-
+  font-size: 20px;
 }
 
 .login{
@@ -97,4 +95,8 @@ code {
 .contenedorLog button{
   background-color: #D1B0B7 !important;
   border: #3A3F42;
+}
+
+.active{
+  color: #771234;
 }
